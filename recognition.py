@@ -54,7 +54,7 @@ while True:
                     2
                    )
 
-    cv2.imshow('camera',color) 
+    cv2.imshow('Real Time Face Recognition',color) 
     k = cv2.waitKey(10) & 0xff # Press 'ESC' for exiting video
     if k == 27:
         break
