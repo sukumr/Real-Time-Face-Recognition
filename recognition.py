@@ -19,7 +19,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 X_COORD = 50
 Y_COORD = 200
 WIDTH = 800
-HEIGHT = 350 + 200
+HEIGHT = 350 + 120
 
 while True:
     screen_grab = np.array(ImageGrab.grab(bbox= (X_COORD, Y_COORD, X_COORD + WIDTH, Y_COORD + HEIGHT)))
